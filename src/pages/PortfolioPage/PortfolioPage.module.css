@@ -1,0 +1,65 @@
+.root {
+  @apply w-full flex flex-col mb-8;
+
+  .container {
+    @apply w-full px-[15px] mx-auto max-w-[1200px];
+
+    .contentWrapper {
+      @apply flex justify-center flex-wrap mx-[-15px];
+
+      .content {
+        @apply relative flex flex-wrap w-full sm:w-11/12 md:w-9/12 lg:w-7/12 px-[15px];
+
+        .balances {
+          @apply flex flex-wrap w-full bg-[#121218] rounded-[8px] mt-[24px];
+
+          .balancesMain {
+            @apply relative pb-[24px] w-full border-b border-b-[#1c1c22] flex flex-wrap;
+          }
+
+          .balancesFooter {
+            @apply flex flex-wrap w-full;
+          }
+        }
+
+        .selectWrapper {
+          @apply flex justify-center items-center px-[12px] py-[8px] bg-[#121218] rounded-lg cursor-pointer;
+
+          .downArrow {
+            @apply ml-2;
+            transition: all 0.2s ease-out 0s;
+            transform: none;
+          }
+
+          .active {
+            transform: rotate(-180deg);
+          }
+        }
+
+        .activityContent {
+          @apply absolute z-[2000] p-4 right-0 bottom-[8px] w-[200px] bg-[#121218] rounded-lg;
+          transition: all 0.2s ease-out 0s;
+          transform: none;
+          z-index: -1;
+          opacity: 0;
+          svg {
+            @apply w-[40px] h-[40px] mr-2;
+          }
+        }
+
+        .sortContent {
+          @apply absolute z-[2000] p-4 right-0 top-[85px] w-[200px] bg-[#121218] rounded-lg;
+          transition: all 0.2s ease-out 0s;
+          transform: none;
+          z-index: -1;
+          opacity: 0;
+        }
+        .active {
+          opacity: 1;
+          z-index: 1000;
+          transform: translateY(-40px) translateZ(0px);
+        }
+      }
+    }
+  }
+}

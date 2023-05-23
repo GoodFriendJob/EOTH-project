@@ -1,0 +1,11 @@
+.root {
+  @apply absolute w-full h-fit top-0 left-0 px-0 py-[8px] z-[1] bg-[#121218];
+
+  .marquee_container {
+    @apply overflow-hidden h-fit overflow-x-hidden flex relative w-full;
+
+    .marquee {
+      @apply flex h-fit justify-around flex-[0_0_auto] min-w-full z-[1] items-center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.root {
+  @apply sticky top-0 z-10 w-full flex flex-row justify-between items-center h-[64px] bg-[#0d151c];
+
+  .itemsWrapper {
+    @apply flex items-center w-full h-full gap-8 px-16;
+
+    .item {
+      @apply flex items-center justify-center font-normal text-[#fffffd] uppercase tracking-wider w-[112px] h-[40px] cursor-pointer;
+      transition: transform .2s cubic-bezier(0.509,0.001,0.25,1);
+      &:hover {
+        @apply scale-[0.98];
+      }
+    }
+    .becomeBacker {
+      @apply flex justify-center items-center uppercase bg-[#f37a00] font-normal text-[#fffffd] rounded-[18px] tracking-wider cursor-pointer max-w-[112px] sm:max-w-[200px] text-center;
+      transition: transform .2s cubic-bezier(0.509,0.001,0.25,1);
+      &:hover {
+        @apply scale-[0.98];
+      }
+    }
+  }
+}

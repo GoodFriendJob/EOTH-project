@@ -1,0 +1,22 @@
+.root {
+  @apply relative bg-[#2b2a2a] flex flex-col grow text-lg leading-5 min-h-screen items-center p-0 m-0;
+  background: #2b2a2a;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .backgroundImage {
+    @apply left-0 h-screen fixed right-0 top-0;
+    /* background-image: url('assets/background.jpg'); */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: left .3s ease;
+  }
+
+  .backgroundColor {
+    @apply bottom-0 left-0 fixed right-0 top-0 w-full;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}

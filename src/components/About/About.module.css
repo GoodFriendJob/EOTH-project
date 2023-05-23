@@ -1,0 +1,16 @@
+.root {
+  @apply relative;
+  min-height: inherit;
+
+  .title {
+    @apply text-[2em] font-medium leading-[1.2em];
+
+    color: rgb(26, 228, 255);
+    text-shadow: rgb(0, 180, 204) 0px 0px 40px, rgb(0, 0, 0) 2px 2px 3px;
+  }
+  
+  .content {
+    @apply text-center text-[1.1em] leading-[1.6em] font-normal m-0 py-0 px-[0.5em] relative;
+    word-break: break-word;
+  }
+}
