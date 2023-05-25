@@ -1,0 +1,30 @@
+.root {
+  @apply relative;
+  min-height: inherit;
+
+  .title {
+    @apply text-[2em] font-medium leading-[1.2em];
+
+    color: rgb(26, 228, 255);
+    text-shadow: rgb(0, 180, 204) 0px 0px 40px, rgb(0, 0, 0) 2px 2px 3px;
+  }
+  
+  .content {
+    @apply text-center text-[1em] leading-[1.6em] font-normal mx-0 mt-0 mb-[2.4rem] min-w-[44px] py-0 px-[0.5em] relative;
+    word-break: break-word;
+  }
+
+  .sendButton {
+    @apply absolute right-[2px] top-[2px] text-[1.8em] cursor-pointer h-[44px] w-[44px] pointer-events-auto rounded-[21px];
+    transition: background-color .2s ease;
+
+    &:hover {
+      @apply pointer-events-auto;
+      background: hsl(30.19999999999999, 100%, 47.6%);
+
+      svg {
+        color: black;
+      }
+    }
+  }
+}

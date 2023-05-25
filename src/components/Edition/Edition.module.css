@@ -10,7 +10,38 @@
   }
   
   .content {
-    @apply text-[1.em] leading-[1.6em] font-normal mx-0 mt-0 mb-[2.4em] p-0 relative min-w-[44px];
+    @apply text-[1em] leading-[1.6em] font-normal mx-0 mt-0 mb-[2.4em] p-0 relative min-w-[44px];
     word-break: break-word;
+  }
+
+  .buyNow {
+    @apply text-black flex flex-col items-center justify-center max-w-[500px] rounded-[1.05em] min-h-[63px] min-w-[240px] overflow-hidden p-0 relative uppercase;
+    background-image: none;
+    background-size: contain;
+    background-color: hsl(30.19999999999999, 100%, 47.6%);
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    border: 0;
+    text-decoration: inherit;
+    transition: transform .2s cubic-bezier(.509,.001,.25,1);
+    &:hover {      
+      @apply scale-[0.98];
+    }
+
+    .more {
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      font-size: 1.2em;
+      line-height: 1.2em;
+      margin: 1.5rem 2rem;
+      max-width: 100%;
+      min-width: 70px;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
   }
 }

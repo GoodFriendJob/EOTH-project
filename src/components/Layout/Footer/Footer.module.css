@@ -1,3 +1,31 @@
 .root {
-  @apply w-full py-[80px] px-0 items-start justify-center mb-[20px] flex flex-wrap mx-0;
+  @apply w-full mt-auto;
+
+  .socialLink {
+    @apply rounded-[1.45em] cursor-pointer flex text-[1em] p-0;    
+    color: inherit;
+    transition: opacity .2s ease;
+    
+    &:hover {
+      @apply opacity-[0.64];
+    }
+  }
+
+  .poweredXsollaLink {
+    @apply cursor-pointer flex opacity-[0.63] z-[1];
+    transition: opacity .2s ease;
+    
+    &:hover {
+      @apply opacity-100;
+    }
+  }
+
+  .privacySettingButton {
+    @apply flex justify-center items-center py-0 px-[15px] text-[#fffffd] cursor-pointer max-w-[255px] opacity-[0.63] relative;
+    transition: opacity .2s ease,background-color .2s ease;
+    
+    &:hover {
+      @apply opacity-100;
+    }
+  }
 }

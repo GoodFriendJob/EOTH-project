@@ -3,6 +3,9 @@ import NewInfo from 'components/NewInfo';
 import Introduction from 'components/Introduction';
 import About from 'components/About';
 import Edition from 'components/Edition';
+import Features from 'components/Features/Features';
+import Newsletter from 'components/Newsletter/Newsletter';
+import News from 'components/News';
 
 function LandingPage() {
 	return (
@@ -18,6 +21,9 @@ function LandingPage() {
 			<Introduction />
 			<About />
 			<Edition />
+			<Features />
+			<Newsletter />
+			<News />
 		</div>
 	);
 }
