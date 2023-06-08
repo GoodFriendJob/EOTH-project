@@ -1,10 +1,10 @@
 import s from './LandingPage.module.css';
 import NewInfo from 'components/NewInfo';
 import Introduction from 'components/Introduction';
-import About from 'components/About';
-import Edition from 'components/Edition';
+// import About from 'components/About';
+// import Edition from 'components/Edition';
 import Features from 'components/Features/Features';
-import Newsletter from 'components/Newsletter/Newsletter';
+// import Newsletter from 'components/Newsletter/Newsletter';
 import News from 'components/News';
 
 function LandingPage() {
@@ -19,10 +19,10 @@ function LandingPage() {
 			<div className={s.backgroundColor}></div>
 			<NewInfo />
 			<Introduction />
-			<About />
-			<Edition />
+			{/* <About /> */}
+			{/* <Edition /> */}
 			<Features />
-			<Newsletter />
+			{/* <Newsletter /> */}
 			<News />
 		</div>
 	);

@@ -5,22 +5,28 @@ const Header = () => {
 		<div className={s.root}>
 			<div className={s.itemsWrapper}>
 				<div className={s.item}>
-					<a href="/media" className="text-center">
-						Media
+					<a
+						href="https://eoth.gitbook.io/eoth/
+"
+						className="text-center"
+					>
+						Docs
 					</a>
 				</div>
-				<div className={s.item}>
-					<a href="/vision" className="text-center">
-						Our Vision
+				{/* <div className={s.item}>
+					<a
+						href="https://eoth.gitbook.io/eoth/about-us"
+						className="text-center"
+					>
+						Team
 					</a>
-				</div>
-				<div className={s.item}>
-					<a href="/support" className="text-center">
-						Support
-					</a>
-				</div>
+				</div> */}
+
 				<div className={s.becomeBacker}>
-					<a href="/" className="mx-[16px] my-[4px] leading-[1.2rem] ">
+					<a
+						href="https://eoth.gitbook.io/eoth/about-us"
+						className="mx-[16px] my-[8px] leading-[1.2rem] "
+					>
 						<div
 							className="overflow-hidden"
 							style={{
@@ -29,7 +35,7 @@ const Header = () => {
 								display: '-webkit-box',
 							}}
 						>
-							Become a backer now
+							Team
 						</div>
 					</a>
 				</div>

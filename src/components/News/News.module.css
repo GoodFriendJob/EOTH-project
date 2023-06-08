@@ -3,10 +3,27 @@
   min-height: inherit;
 
   .title {
-    @apply text-[2em] font-medium leading-[1.2em];
+    @apply text-[2em] font-medium leading-[1.2em] uppercase;
 
     color: rgb(26, 228, 255);
     text-shadow: rgb(0, 180, 204) 0px 0px 40px, rgb(0, 0, 0) 2px 2px 3px;
+  }
+
+  .subTitle {
+    @apply text-[1.6em] font-medium leading-[1.2em] uppercase;
+
+    color: rgb(26, 228, 255);
+    text-shadow: rgb(0, 180, 204) 0px 0px 40px, rgb(0, 0, 0) 2px 2px 3px;
+  }
+    
+  .mainContent {
+    @apply text-center text-[1.2em] leading-[1.6em] font-normal mx-0 mt-10 mb-[2.4rem] min-w-[44px] py-0 px-[0.5em] relative max-w-[880px];
+    word-break: break-word;
+  }
+    
+  .content {
+    @apply text-center text-[1em] leading-[1.6em] font-normal mx-0 mt-10 mb-[2.4rem] min-w-[44px] py-0 px-[0.5em] relative max-w-[880px];
+    word-break: break-word;
   }
   
   .newsCard {
@@ -30,7 +47,7 @@
     }
     
     .newsCardImage_2 {
-      @apply rounded-t-[8px] rounded-r-[8px] h-[145px] sm:h-[180px] relative w-full;
+      @apply rounded-t-[8px] rounded-r-[8px] h-[145px] sm:h-[300px] relative w-full;
       background-color: rgba(0, 0, 0, 0.3);
     }
   }

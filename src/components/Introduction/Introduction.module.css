@@ -1,5 +1,6 @@
 .root {
-  @apply h-full max-w-[820px] flex flex-col items-center;
+  @apply h-full max-w-[820px] flex flex-col items-center relative mt-[100px] ;
+  min-height: inherit;
 
   .title {
     @apply text-[3em] font-bold leading-[1.2em];
