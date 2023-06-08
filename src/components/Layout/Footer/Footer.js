@@ -8,7 +8,7 @@ const Footer = () => {
 					<div
 						className="left-0 top-0 absolute z-[1] w-full"
 						style={{
-							backgroundColor: 'rgba(64, 64, 64, 1)',
+							backgroundColor: 'rgba(59, 59, 59, 1)',
 							height: 'inherit',
 						}}
 					></div>
