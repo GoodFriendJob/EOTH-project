@@ -132,7 +132,7 @@ const Footer = () => {
 											</a>
 										</li>
 										<li className="mx-[12px] mt-0 mb-[12px]">
-											<a href="/" className={s.socialLink}>
+											<a href="https://discord.gg/KQZ8nGTW" className={s.socialLink}>
 												<svg
 													width="50"
 													height="50"
