@@ -13,7 +13,7 @@ function LandingPage() {
 			<div
 				className={s.backgroundImage}
 				style={{
-					backgroundImage: 'url(assets/images/background.jpg)',
+					backgroundImage: 'url(assets/images/introBackground.png)',
 				}}
 			></div>
 			<div className={s.backgroundColor}></div>

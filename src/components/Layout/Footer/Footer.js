@@ -39,7 +39,8 @@ const Footer = () => {
 										className="w-full"
 										style={{
 											backgroundSize: 'contain',
-											backgroundImage: 'url(assets/images/footer_logo.png)',
+											backgroundImage:
+												'url(https://1505511664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fj5Y4UUWAjTekRlSF59vc%2Fuploads%2FXmJyqZXUP5mcpPxGsyfI%2FEOTH_LOGO_LARGE_WHITE-removebg-preview.png?alt=media&token=d37c5695-59a3-4769-bbc5-df21c70eb17f)',
 											backgroundPosition: '50%',
 											backgroundRepeat: 'no-repeat',
 											height: 'inherit',
@@ -48,7 +49,7 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="flex w-full">
-								<div className="flex flex-wrap justify-between mb-[16px] w-full items-center">
+								<div className="flex flex-wrap justify-center mb-[16px] w-full items-center">
 									<ul
 										className="flex flex-wrap justify-center relative"
 										style={{ listStyle: 'none' }}
@@ -170,7 +171,7 @@ const Footer = () => {
 										</li>
 									</ul>
 								</div>
-								<div className="flex flex-col">
+								{/* <div className="flex flex-col">
 									<div
 										className="mb-[16px] w-full text-[1em] leading-[1.6em] mx-0 mt-0 min-w-[44px] py-0 px-[0.5em] relative text-center"
 										style={{ wordBreak: 'break-word' }}
@@ -210,7 +211,7 @@ const Footer = () => {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 
