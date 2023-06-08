@@ -17,12 +17,11 @@ const Introduction = () => {
 				</div> */}
 				<video
 					autoPlay
-					muted
 					loop
-					className="w-full h-full"
-					style={{ objectFit: 'unset' }}
+					muted
+					style={{ objectFit: 'unset', width: '100%', height: '100%' }}
 				>
-					<source src="http://135.181.125.114/intro.mp4" type="video/mp4" />
+					<source src="assets/video/intro.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 			</div>
