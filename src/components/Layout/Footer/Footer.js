@@ -8,7 +8,7 @@ const Footer = () => {
 					<div
 						className="left-0 top-0 absolute z-[1] w-full"
 						style={{
-							backgroundColor: 'rgba(13, 21, 28, 1)',
+							backgroundColor: 'rgba(64, 64, 64, 1)',
 							height: 'inherit',
 						}}
 					></div>
@@ -40,7 +40,7 @@ const Footer = () => {
 										style={{
 											backgroundSize: 'contain',
 											backgroundImage:
-												'url(https://1505511664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fj5Y4UUWAjTekRlSF59vc%2Fuploads%2FXmJyqZXUP5mcpPxGsyfI%2FEOTH_LOGO_LARGE_WHITE-removebg-preview.png?alt=media&token=d37c5695-59a3-4769-bbc5-df21c70eb17f)',
+												'url(assets/images/logoW.jpg)',
 											backgroundPosition: '50%',
 											backgroundRepeat: 'no-repeat',
 											height: 'inherit',
