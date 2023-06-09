@@ -27,10 +27,7 @@ const Introduction = () => {
 			</div>
 			<div className={s.root}>
 				<div className="w-[35%]">
-					<img
-						src="https://1505511664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fj5Y4UUWAjTekRlSF59vc%2Fuploads%2FXmJyqZXUP5mcpPxGsyfI%2FEOTH_LOGO_LARGE_WHITE-removebg-preview.png?alt=media&token=d37c5695-59a3-4769-bbc5-df21c70eb17f)"
-						alt=""
-					/>
+					<img src="assets/images/logoW.png" alt="" />
 				</div>
 				<div className="px-4 py-16">
 					<div
