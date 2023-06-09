@@ -1,5 +1,5 @@
 import s from './LandingPage.module.css';
-import NewInfo from 'components/NewInfo';
+// import NewInfo from 'components/NewInfo';
 import Introduction from 'components/Introduction';
 // import About from 'components/About';
 // import Edition from 'components/Edition';
@@ -17,7 +17,7 @@ function LandingPage() {
 				}}
 			></div>
 			<div className={s.backgroundColor}></div>
-			<NewInfo />
+			{/* <NewInfo /> */}
 			<Introduction />
 			{/* <About /> */}
 			{/* <Edition /> */}

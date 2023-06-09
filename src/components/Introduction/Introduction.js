@@ -3,7 +3,7 @@ import s from './Introduction.module.css';
 const Introduction = () => {
 	return (
 		<div className="w-full h-full z-[1] flex justify-center relative">
-			<div className="absolute bottom-0 top-10 z-0 items-center h-full justify-center w-full hidden lg:flex">
+			<div className="absolute bottom-0 top-0 z-0 items-center h-full justify-center w-full hidden lg:flex">
 				{/* <div className="w-full h-0 relative pb-[56.25%]">
 					<iframe
 						src="https://streamable.com/e/2jp8l9"
