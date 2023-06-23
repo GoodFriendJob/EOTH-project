@@ -57,6 +57,7 @@ const Introduction = () => {
 								<div className="tracking-[0.2em] uppercase mb-[0.5em] text-[0.9em] leading-[1.6em] min-w-[44px] text-center py-0 px-[0.5em]">
 									<p>Available For</p>
 								</div>
+
 								<div className="flex justify-center">
 									<div
 										className="flex-wrap p-0 flex justify-center"
